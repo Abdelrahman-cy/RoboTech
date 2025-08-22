@@ -1,0 +1,15 @@
+#define led 
+
+void setup()
+{
+    pinMode(led,OUTPUT);
+}
+
+void loop()
+{
+    digitalWrite(led,HIGH); // on
+    digitalWrite(led,LOW); // off
+}
+
+
+// we need a resostor while connecting it 

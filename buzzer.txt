@@ -1,0 +1,17 @@
+#define buzzerpin 
+
+void setup()
+{
+    pinMode(buzzerpin,OUTPUT);
+}
+
+void loop()
+{
+    // active buzzers has polarity
+    digitalWrite(buzzerpin,HIGH); // turn on 
+    digitalWrite(buzzerpin,LOW); // turn off 
+
+    // passive buzzer doesn't have polarity
+    Tone (buzzerpin,"freq") // turn on 
+    noTone // turn off
+}
